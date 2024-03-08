@@ -15,6 +15,8 @@
 		9FAC199E2B979EF7008800A4 /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC199D2B979EF7008800A4 /* NewBookView.swift */; };
 		9FAC19A22B9A5AB8008800A4 /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC19A12B9A5AB8008800A4 /* EditBookView.swift */; };
 		9FAC19A72B9A5F9B008800A4 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC19A62B9A5F9B008800A4 /* RatingsView.swift */; };
+		9FAC19A92B9A7A99008800A4 /* BookSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC19A82B9A7A99008800A4 /* BookSamples.swift */; };
+		9FAC19AB2B9B9412008800A4 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAC19AA2B9B9412008800A4 /* PreviewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		9FAC199D2B979EF7008800A4 /* NewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookView.swift; sourceTree = "<group>"; };
 		9FAC19A12B9A5AB8008800A4 /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
 		9FAC19A62B9A5F9B008800A4 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		9FAC19A82B9A7A99008800A4 /* BookSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSamples.swift; sourceTree = "<group>"; };
+		9FAC19AA2B9B9412008800A4 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				9FAC19922B979A09008800A4 /* Preview Assets.xcassets */,
+				9FAC19A82B9A7A99008800A4 /* BookSamples.swift */,
+				9FAC19AA2B9B9412008800A4 /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -173,11 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAC19A92B9A7A99008800A4 /* BookSamples.swift in Sources */,
 				9FAC199E2B979EF7008800A4 /* NewBookView.swift in Sources */,
 				9FAC19A72B9A5F9B008800A4 /* RatingsView.swift in Sources */,
 				9FAC19A22B9A5AB8008800A4 /* EditBookView.swift in Sources */,
 				9FAC198E2B979A07008800A4 /* BookListView.swift in Sources */,
 				9FAC198C2B979A07008800A4 /* BookQuotesApp.swift in Sources */,
+				9FAC19AB2B9B9412008800A4 /* PreviewContainer.swift in Sources */,
 				9FAC199C2B979A24008800A4 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
